@@ -1,6 +1,6 @@
 {% set name = "pygypsy" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "a7b4e77fc7fbe4e7d8c60a2792ca0eacef21dac17997f33c0d5da368ed1cdd11" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "f78a9267cde1424c84140bd32399966174f670bccddfd3632a88ec74813c08f0" %}
 
 package:
   name: {{ name|lower }}
