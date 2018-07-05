@@ -25,12 +25,10 @@ requirements:
     - python
     - setuptools
     - numpy
-    - numpy
     - cython 0.25.1
   run:
     - python
     - click >=6.6
-    - {{ pin_compatible('numpy') }}
     - {{ pin_compatible('numpy') }}
     - pandas >=0.18.1
     - matplotlib >=1.5.2
